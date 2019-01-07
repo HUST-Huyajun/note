@@ -4,3 +4,10 @@ write this to find later easily
 - [markdown 语法解读](https://github.com/guodongxiaren/README#%E5%9B%BE%E7%89%87)
 - [pandas使用](./use_pandas.md)
 - [python动态图](./dynamic_figure.md)
+- tensorboard jupyter notebook 显示
+
+    ```
+    sess = tf.Session()
+    writer = tf.summary.FileWriter("logs/", sess.graph)
+    tensorboard --logdir logs
+    ```
