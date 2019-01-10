@@ -11,3 +11,5 @@ write this to find later easily
     writer = tf.summary.FileWriter("logs/", sess.graph)
     tensorboard --logdir logs
     ```
+- 目录下打开jupyter notebook
+    shift+右键->power shell->输入jupyter notebook
